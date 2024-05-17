@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>yosiaaasp</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <script></script>
+
+    <!-- INI ADALAH STYLE UNTUK KODE HTML -->
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Product%20Sans:400,700&display=swap');
+      :root {
+          --font: 'Product Sans', sans-serif;
+      }
+      body {
+        font-family: var(--font);
+        background-image: url("img/wpp.jpeg");
+        background-size: cover;
+        background-position: center;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+      }
+      .profile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+        margin-top: -50px; /* Tambahkan ini */
+      }
+
+      .profile img {
+        width: 100px;
+        height: 100px;
+        border-radius: 10%;
+        object-fit: cover;
+        border: 2px solid white; /* Tambahkan ini */
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1), 0 0 10px rgba(0, 0, 0, 0.1); /* Ubah ini */
+        margin-bottom: 20px;
+      }
+
+      .profile-name {
+        margin-top: 20px;
+        font-size: 24px;
+        font-weight: bold;
+        color: #ffffff;
+      }
+
+      .profile-desc {
+        margin-top: 10px;
+        font-size: 16px;
+        color: #ffffff; /* set the color of the text */
+        text-align: center;
+      }
+      .link-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+      }
+
+      .profile-desc a {
+        color: #ffffff; /* set the color of the links */
+      }
+
+      .link {
+        width: 100vw;
+        max-width: 50vw; /* Ubah ini untuk membuat tombol lebih panjang */
+        background-color: #ffffff;
+        border-radius: 20px;
+        padding: 10px; /* Change margin to padding */
+        display: flex;
+        flex-direction: row; /* Add this to align items horizontally */
+        align-items: center;
+        justify-content: center;  /* Change this back to center */
+        text-align: center;
+        border: 2px solid black; /* Tambahkan ini untuk membuat border hitam */
+        box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1); /* Ubah ini untuk membuat shadow putih */
+        padding: 5px; /* Ubah ini untuk membuat tombol lebih tipis */
+        margin: 10px; /* Add this to create space around each link */
+        transition: transform 0.3s ease;
+      }
+
+      .link a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+    align-items: center; /* This will center the text vertically in line with the SVG */
+    justify-content: center; /* This will center the text and image horizontally */
+    transition: transform 0.3s ease;
+}
+
+.link:hover {
+    transform: scale(1.1);
+    background-color: #808080;
+}
+
+.link:active {
+    transform: scale(1.1);
+    background-color: silver;
+}   
+
+.link:hover a {
+    color: #ffffff;
+}
+
+.link:hover img {
+    opacity: 1;
+}
+
+.link a img {
+    margin-right: 10px; /* Reduce the margin to bring the image and text closer together */
+}
+
+      @media (max-width: 600px) {
+        .link {
+          width: 100%;
+        }
+      }
+
+      #particles-js {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+      }
+    </style>
+
+    <!-- INI ADALAH AKHIR KODE DARI CSS -->  
+  </head>
+  <body>
+
+      <!-- INI ADALAH KODE AKHIR JAVASCRIPT ARTICLE -->
+
+      <!-- INI ADALAH AWAL DARI PROFILE DAN JUGA  -->
+    </div>
+    <div id="particles-js"></div> <!-- Add this for particles effect -->
+    <div class="profile" data-aos="fade-right">">
+      <img src="img/1.jpg" alt="Profile Picture" />
+      <div class="profile-name">Yosia Sipautar</div>
+      <div class="profile-desc">
+        20 | Informatics Student |
+        <a href="https://twitter.com/AA_AlyaJKT48" target="_blank"
+          >@AA_AlyaJKT48</a
+        >
+        &
+        <a href="https://twitter.com/Kimmy_JKT48" target="_blank"
+          >@Kimmy_JKT48</a
+        >
+        Oshi's
+        <br>
+        silahkan dah kalian kalo kepo sama sosmed gue silahkan difollow :
+      </div>
+    </div>
+    <div class="link-container" data-aos="fade-up">
+      <div class="link">
+      <img src="Icon/icons8-twitter-25.png" alt="Twitter">
+        <a href="https://twitter.com/yosiaaasp"></i>Twitter</a>
+      </div>
+      <div class="link">
+        <img src="Icon/icons8-twitter-25.png" alt="Twitter 2">
+          <a href="https://twitter.com/_yosiaaasp"></i>Twitter 2</a>
+        </div>
+      <div class="link">
+        <img src="Icon/icons8-instagram-25.png" alt="Instagram">
+        <a href="https://www.instagram.com/yosiaaasp/">Instagram</a>
+      </div>
+      <div class="link">
+        <img src="Icon/icons8-discord-25.png" alt="Discord">
+        <a href="http://discordapp.com/users/calieeeaw">Discord</a>
+      </div>
+      <div class="link">
+        <img src="Icon/icons8-donate-25.png" alt="saweria">
+        <a href="https://saweria.co/yosiaaasp">Saweria</a>
+      </div>
+    </div>
+
+    <!-- INI ADALAH AKHIR DARI LINK DAN JUGA PROFILE -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/16.1.3/smooth-scroll.polyfills.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- Add this for particles effect -->
+    <script>
+      AOS.init();
+      var scroll = new SmoothScroll('a[href*="#"]', {
+        speed: 800,
+        speedAsDuration: true,
+      });
+
+      // Add this for particles effect
+      particlesJS('particles-js', {
+    particles: {
+      number: { value: 80, density: { enable: true, value_area: 800 } },
+      color: { value: '#ffffff' },
+      shape: { type: 'circle' },
+      opacity: { value: 0.5, random: false },
+      size: { value: 5, random: true },
+      line_linked: { enable: true, distance: 150, color: '#ffffff', opacity: 0.4, width: 2 }, // Ubah width menjadi 2
+      move: { enable: true, speed: 1, direction: 'none', random: false, straight: false, out_mode: 'out', bounce: false, attract: { enable: false, rotateX: 600, rotateY: 1200 } }
+    },
+    interactivity: {
+      detect_on: 'canvas',
+      events: { onhover: { enable: true, mode: 'repulse' }, onclick: { enable: true, mode: 'push' }, resize: true },
+      modes: { grab: { distance: 400, line_linked: { opacity: 1 } }, bubble: { distance: 400, size: 40, duration: 2, opacity: 8, speed: 3 }, repulse: { distance: 200, duration: 0.4 }, push: { particles_nb: 4 }, remove: { particles_nb: 2 } }
+    },
+    retina_detect: true
+  });
+</script>
+  </body>
+</html>
