@@ -131,6 +131,25 @@
         height: 100%;
         z-index: -1;
       }
+
+      #myFooter {
+        position: fixed; 
+        left: 0; 
+        bottom: 0; 
+        width: 100%; 
+        background-color: rgba(0,0,0,0.8); 
+        color: white; 
+        text-align: center; 
+        padding: 5px 0;
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0s, opacity 0.5s linear;
+    }
+
+    body:hover #myFooter {
+        visibility: visible;
+        opacity: 1;
+    }
     </style>
 
     <!-- INI ADALAH AKHIR KODE DARI CSS -->  
@@ -213,4 +232,8 @@
   });
 </script>
   </body>
+  <footer id="myFooter">
+    <p>Made with ❤️ by Yosia Sipahutar</p>
+    <p>&copy; 2024 Yosia Sipahutar. All rights reserved.</p>
+</footer>
 </html>
